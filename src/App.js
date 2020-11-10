@@ -30,7 +30,7 @@ function App ()
         dispatch({
           type: "SET_USER",
           user: null,
-        });
+        })
       }
     });
   }, []);
